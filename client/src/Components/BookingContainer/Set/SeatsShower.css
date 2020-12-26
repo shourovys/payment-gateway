@@ -1,0 +1,26 @@
+.SeatsShower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16rem;
+    flex-wrap: wrap;
+}
+.seat {
+    list-style: none;
+    border: 1px solid lightgray;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0.4rem;
+}
+.seat > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.booked {
+    cursor: no-drop;
+    background-color: red;
+}
+.not-booked {
+    cursor: pointer;
+}

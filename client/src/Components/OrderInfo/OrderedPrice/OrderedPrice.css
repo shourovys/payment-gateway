@@ -1,0 +1,14 @@
+.price-section {
+    width: 100%;
+    padding-right: 1.4rem;
+    padding-top: 2rem;
+}
+.price-section > div {
+    display: flex;
+    justify-content: space-between;
+}
+.price-section > div > samp {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+}

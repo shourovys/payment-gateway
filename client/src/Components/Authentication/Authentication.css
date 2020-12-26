@@ -1,0 +1,123 @@
+.authentication {
+    display: flex;
+    max-width: 1100px !important;
+    margin: 0 auto;
+    min-height: 86vh;
+    margin-top: 2rem;
+    overflow: hidden !important;
+}
+.svg {
+    max-width: 550px;
+    margin-top: 5rem;
+}
+/* @include mq(800px) {
+    .svg {
+        display: none;
+    }
+    .login-svg {
+        display: none;
+    }
+} */
+
+.login-container {
+    display: block;
+    margin: auto;
+}
+.login-container > p {
+    display: block;
+    float: right;
+    font-size: 16px;
+    padding-right: 2rem;
+}
+
+.colourBlue {
+    color: #053ad8;
+    cursor: pointer;
+}
+.login-svg {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+}
+.login-svg > img {
+    width: 3rem;
+    height: 3rem;
+    padding: 0.8rem;
+    background-color: rgba(245, 245, 245, 0.767);
+    border-radius: 50%;
+    cursor: pointer;
+}
+/* LogIn component */
+.login,
+.signIn {
+    display: flex;
+    width: 100%;
+    margin-top: 4rem;
+    flex-direction: column;
+    padding: 0rem 1rem;
+}
+.form {
+    margin: 1rem 0;
+    padding-left: 2rem;
+    min-height: 8rem;
+}
+.light-text {
+    color: rgb(131, 131, 131);
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+.Login-action {
+    display: flex;
+    gap: 3rem;
+    padding-left: 1rem;
+    margin-top: 2rem;
+    align-items: center;
+}
+.Login-action > p {
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(187, 185, 185);
+    align-self: flex-end;
+}
+.Login-action > p:hover {
+    color: rgb(131, 131, 131);
+}
+#loginBtn {
+    margin: 0px !important;
+    padding: 1rem 0;
+    border-radius: 25px;
+    font-weight: 550;
+    font-size: 1rem;
+    width: 8rem;
+    margin-top: 3rem;
+    display: block;
+    background-color: rgb(68, 80, 255);
+    border: none;
+    outline: none;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+#loginBtn:active {
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0);
+}
+
+/* UserInfo */
+.user-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.user-info > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}

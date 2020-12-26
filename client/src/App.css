@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Oxygen", sans-serif;
+}
+.link {
+    text-decoration: none !important;
+}
+.btn {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(68, 80, 255);
+    /* background-color: #053ad8; */
+    border-radius: 18px;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+.btn:active {
+    box-shadow: 0 0 4px 6px rgba(255, 255, 255, 0.6);
+    text-shadow: 0 0 4px 8px rgba(255, 255, 255, 0.6);
+}
+.squareBtn {
+    width: 10.8rem;
+
+    min-height: 2.2rem;
+    margin: 1rem 0;
+    color: white;
+    background-color: rgb(68, 80, 255);
+    outline: none;
+    border: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+@media (max-width: 440px) {
+    .squareBtn {
+        max-width: 90vw !important;
+        min-width: 21.8rem !important;
+    }
+}

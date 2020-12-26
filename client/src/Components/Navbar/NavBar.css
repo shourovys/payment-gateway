@@ -1,0 +1,8 @@
+.nav-info {
+    display: flex;
+    align-items: center;
+}
+.MuiAppBar-colorPrimary {
+    color: #000;
+    background-color: #ffffff;
+}
